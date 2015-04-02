@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mymacbook/Projects/intro2langtechGithub/Introduction-to-Language-Technologies-Course/HW6_SpokenDialogSystems/SampleVoiceApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="arr_ttsVoices">
+        <item>Samantha</item>
+        <item>Tom</item>
+    </string-array>
+    <string name="app_name">Sample Voice App</string>
+    <string name="button_dictation">Dictation</string>
+    <string name="button_startDictation">Dictate</string>
+    <string name="button_startTts">Get TTS</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_tts">TTS</string>
+    <string name="button_websearch">Websearch</string>
+    <string name="hello">Hello World, SampleVoiceApp!</string>
+    <string name="radio_endPointerLong">Long</string>
+    <string name="radio_endPointerNone">None</string>
+    <string name="radio_endPointerShort">Short</string>
+    <string name="text_endPointer">Endpointer:</string>
+    <string name="title_dictation">Test Dictation</string>
+    <string name="title_main">Choose a feature to test</string>
+    <string name="title_tts">Test TTS</string>
+</resources>

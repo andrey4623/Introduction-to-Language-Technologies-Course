@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/mymacbook/Projects/intro2langtechGithub/Introduction-to-Language-Technologies-Course/HW6_SpokenDialogSystems/SampleVoiceApp/app/libs/nmdp_speech_kit.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="475c8aeb17e316ae7bbdd06467bde10a4abcb1e5">
+        <dex dex="/Users/mymacbook/Projects/intro2langtechGithub/Introduction-to-Language-Technologies-Course/HW6_SpokenDialogSystems/SampleVoiceApp/app/build/intermediates/pre-dexed/debug/nmdp_speech_kit-5eabd124234dd49fec9c6391826039c10f3fdd66.jar" />
+    </item>
+
+</items>
