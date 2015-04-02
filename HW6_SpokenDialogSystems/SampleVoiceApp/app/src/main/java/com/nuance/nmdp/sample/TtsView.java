@@ -167,6 +167,10 @@ public class TtsView extends Activity
     
     private void updateCurrentText(String text, int color, boolean onlyIfBlank)
     {
+
+
+
+
         TextView v = (TextView)findViewById(R.id.text_currentTts);
 
         if (!onlyIfBlank || v.getText().length() == 0)

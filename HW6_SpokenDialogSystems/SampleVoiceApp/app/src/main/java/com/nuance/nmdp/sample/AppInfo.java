@@ -30,9 +30,10 @@ public class AppInfo
     public static final String SpeechKitServer = ;
 
     public static final int SpeechKitPort = ;
-    
+
     public static final boolean SpeechKitSsl = false;
 
     public static final String SpeechKitAppId = ;
     public static final byte[] SpeechKitApplicationKey = ;
+
 }

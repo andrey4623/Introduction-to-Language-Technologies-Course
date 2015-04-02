@@ -11,8 +11,10 @@
 
 <LinearLayout android:layout_height="wrap_content" android:layout_toRightOf="@+id/btn_startDictation" android:id="@+id/layout_bottomButtons" android:layout_alignParentBottom="true" android:layout_width="fill_parent" android:orientation="horizontal">
 <Button android:layout_height="wrap_content" android:id="@+id/btn_startDictation" android:text="@string/button_startDictation" android:layout_width="wrap_content" android:layout_weight="1"></Button>
-<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_startWebsearch" android:text="@string/button_websearch" android:layout_weight="1"></Button>
-<Button android:layout_height="wrap_content" android:id="@+id/btn_startTts" android:text="@string/button_startTts" android:layout_alignParentRight="true" android:layout_weight="1" android:layout_width="wrap_content"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_startWebsearch" android:text="@string/button_websearch" android:layout_weight="1"
+    android:enabled="false"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/btn_startTts" android:text="@string/button_startTts" android:layout_alignParentRight="true" android:layout_weight="1" android:layout_width="wrap_content"
+    android:enabled="false"></Button>
 </LinearLayout>
 
 </RelativeLayout>

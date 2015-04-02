@@ -8,5 +8,6 @@
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" android:text="@string/title_main"/>
 <Button android:layout_height="wrap_content" android:text="@string/button_dictation" android:layout_width="fill_parent" android:id="@+id/btn_dictation"></Button>
-<Button android:layout_height="wrap_content" android:text="@string/button_tts" android:layout_width="fill_parent" android:id="@+id/btn_tts"></Button>
+<Button android:layout_height="wrap_content" android:text="@string/button_tts" android:layout_width="fill_parent" android:id="@+id/btn_tts"
+    android:enabled="false"></Button>
 </LinearLayout>

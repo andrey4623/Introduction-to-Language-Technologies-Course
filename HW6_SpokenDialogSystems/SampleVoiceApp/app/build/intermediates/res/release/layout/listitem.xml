@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<Button android:text="@+id/btn_listItem" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/btn_listItem" android:layout_width="fill_parent"></Button>
+<!-- From: file:/Users/mymacbook/Projects/intro2langtechGithub/Introduction-to-Language-Technologies-Course/HW6_SpokenDialogSystems/SampleVoiceApp/app/src/main/res/layout/listitem.xml -->

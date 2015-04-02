@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 24.1.2">
+
+    <issue
+        id="NotSibling"
+        severity="Fatal"
+        message="`@+id/btn_startDictation` is not a sibling in the same `RelativeLayout`"
+        category="Correctness"
+        priority="6"
+        summary="RelativeLayout Invalid Constraints"
+        explanation="Layout constraints in a given `RelativeLayout` should reference other views within the same relative layout."
+        errorLine1="&lt;LinearLayout android:layout_height=&quot;wrap_content&quot; android:layout_toRightOf=&quot;@+id/btn_startDictation&quot; android:id=&quot;@+id/layout_bottomButtons&quot; android:layout_alignParentBottom=&quot;true&quot; android:layout_width=&quot;fill_parent&quot; android:orientation=&quot;horizontal&quot;>"
+        errorLine2="                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/mymacbook/Projects/intro2langtechGithub/Introduction-to-Language-Technologies-Course/HW6_SpokenDialogSystems/SampleVoiceApp/app/src/main/res/layout/dictation.xml"
+            line="12"
+            column="52"/>
+    </issue>
+
+    <issue
+        id="HardcodedDebugMode"
+        severity="Fatal"
+        message="Avoid hardcoding the debug mode; leaving it out allows debug and release builds to automatically assign one"
+        category="Security"
+        priority="5"
+        summary="Hardcoded value of `android:debuggable` in the manifest"
+        explanation="It&apos;s best to leave out the `android:debuggable` attribute from the manifest. If you do, then the tools will automatically insert `android:debuggable=true` when building an APK to debug on an emulator or device. And when you perform a release build, such as Exporting APK, it will automatically set it to `false`.
+
+If on the other hand you specify a specific value in the manifest file, then the tools will always use it. This can lead to accidentally publishing your app with debug information."
+        errorLine1="    &lt;application android:icon=&quot;@drawable/icon&quot; android:label=&quot;@string/app_name&quot; android:debuggable=&quot;true&quot;>"
+        errorLine2="                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/mymacbook/Projects/intro2langtechGithub/Introduction-to-Language-Technologies-Course/HW6_SpokenDialogSystems/SampleVoiceApp/app/src/main/AndroidManifest.xml"
+            line="6"
+            column="81"/>
+    </issue>
+
+</issues>
