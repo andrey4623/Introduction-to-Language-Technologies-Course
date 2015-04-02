@@ -1,5 +1,6 @@
 # Introduction-to-Language-Technologies-Course
 Course at Skoltech, Spring 2015
+
 Course instructor: Anatole Gershman, Skoltech, Carnegie Mellon University
 
 ## Spoken Dialog System
